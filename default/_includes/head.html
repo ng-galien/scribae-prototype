@@ -6,7 +6,7 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   {% if site.local %}
-  <link href={{ "/assets/local/material-icon.css" | relative_url }} rel="stylesheet">
+  <link href={{ "/fonts/material-icon.css" | relative_url }} rel="stylesheet">
   {% else %}
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   {% endif %}

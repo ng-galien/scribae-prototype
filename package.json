@@ -1,0 +1,19 @@
+{
+  "name": "scribae-prototypes",
+  "version": "1.0.0",
+  "description": "Prototypes for Scribae",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ng-galien/scribae-prototype.git"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "author": "ng-galien",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "~3.3.1",
+    "jquery-lazy": "~1.7.9",
+    "jquery-match-height": "~0.7.2",
+    "materialize-css": "next"
+  }
+}

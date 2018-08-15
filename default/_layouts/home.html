@@ -1,6 +1,7 @@
 --- 
 layout: default 
 --- 
+<!-- GET THE PAGES -->
 {% assign no_pagin_pages =  site.pages 
   | where: "show", "true" 
   | where_exp: "item", "item.layout != 'home'"
@@ -25,6 +26,8 @@ layout: default
 {% else %}
   {% assign item_col = "col s12" %} 
 {% endif %}
+
+<!-- HOME PAGE -->
 
 <!-- First parallax zone -->
 <div class="parallax-container">
@@ -63,7 +66,6 @@ layout: default
         <!-- Items zone -->
         <div class="section">
             <div class="row">
-                <div class=""></div>
                 {% for item in items %}
                 {% assign icon_theme = "menu-icon-" | append: item.theme %}
                 <div class="{{ item_col }} hoverable fixed-height">
