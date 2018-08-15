@@ -1,5 +1,5 @@
 function initMenu() {
-  $(".sidenav").sidenav({ });
+  //$(".sidenav").sidenav({ });
   $(".dropdown-button").dropdown();
 }
 

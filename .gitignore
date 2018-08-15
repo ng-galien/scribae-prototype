@@ -9,30 +9,5 @@
 # Ignore all logfiles and tempfiles.
 /tmp/*
 .DS_Store
-default/*.gem
-default/*.swp
-default/*~
-default/.DS_Store
-default/.analysis
-default/.bundle/
-default/.byebug_history
-default/.jekyll-metadata
-default/.ruby-gemset
-default/.ruby-version
-default/.sass-cache
-default/Gemfile.lock
 
-
-default/_config.yml
-default/_config_local.yml
-default/index.md
-default/info.md
-default/albums.md
-default/themes.md
-default/video.md
-default/_albums/
-default/_info/
-default/_posts/
-default/_site/
-default/_themes/
-default/posts/
+/node_modules
