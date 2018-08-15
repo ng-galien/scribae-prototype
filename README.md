@@ -12,4 +12,4 @@ Use of npm for librairies
 
 Use of rsync for copying model and librairies
 
-> See package.json
+> copy_model.sh
